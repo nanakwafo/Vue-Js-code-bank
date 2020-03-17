@@ -1,6 +1,6 @@
 <template>
 <div class="hello">
-
+   <h4>file uploads</h4>
     <input style="display:none" type="file" @change="onFileSelected" ref="fileInput">
     <button @click="$refs.fileInput.click()">Pickup</button>
     <img :src="avatar" alt="">
